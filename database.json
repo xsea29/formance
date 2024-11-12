@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "johndoe@hotmail.com",
+      "dob": "1990-01-01",
+      "id": "1"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "janesmith@yahoo.com",
+      "dob": "1992-02-02",
+      "id": "2"
+    },
+    {
+      "name": "Alice Johnson",
+      "email": "alicej@gmail.com",
+      "dob": "1995-03-03",
+      "id": "3"
+    },
+    {
+      "id": "cc9b",
+      "name": "Bob Smith",
+      "email": "bob.smith@yahoo.in",
+      "dob": "1985-05-23"
+    },
+    {
+      "id": "7756",
+      "name": "Charlie Brown",
+      "email": "charle.brown@hotmail.com",
+      "dob": "1992-02-21"
+    },
+    {
+      "id": "7b0d",
+      "name": "Sagar Kumar",
+      "email": "kumarsagar2977@gmail.com",
+      "dob": "1997-07-29"
+    }
+  ]
+}

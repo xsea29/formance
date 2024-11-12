@@ -1,0 +1,136 @@
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #111111c0;
+  /* filter: blur(8px); */
+  overflow: hidden;
+}
+
+.user-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 34vw;
+  /* height: 20vw; */
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.user-img {
+  width: 12vw;
+  height: 12vw;
+  background-color: rgb(184, 243, 255);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.add-details {
+  display: flex;
+  gap: 10px;
+}
+
+span {
+  color: #888;
+}
+
+.email img {
+  width: 1vw;
+  vertical-align: -0.2vw;
+}
+
+.back-btn {
+  color: #6eacda;
+  border: none;
+  font-size: 16px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  background-color: #c4e1f6;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .user-card {
+    width: 80vw;
+    height: 60vw;
+    padding: 20px;
+  }
+
+  .user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  .user-img {
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(184, 243, 255);
+    /* border-radius: 50%; */
+    overflow: hidden;
+  }
+
+  .user-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .detail {
+    width: 100%;
+  }
+  .detail h2 {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .add-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+  .add-details .age {
+    width: 40%;
+    text-align: end;
+  }
+
+  .email {
+    width: 70%;
+  }
+  .email img {
+    width: 2vw;
+    /* vertical-align: -0.2vw; */
+  }
+
+  .back-btn {
+    color: #6eacda;
+    border: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: #c4e1f6;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
