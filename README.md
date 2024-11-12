@@ -1,8 +1,8 @@
-#formance (User Management Application)
+# formance (User Management Application)
 
 This is a full-stack like user management application that lets users view, add, edit, and delete user information. The project includes both a backend (using JSON server for data storage) and a frontend built with React.
 
-###Features
+### Features
 
 - View all users with details like name, email, and date of birth.
 - Add new users with a form.
@@ -10,18 +10,18 @@ This is a full-stack like user management application that lets users view, add,
 - Delete users from the list.
 - Search users by name.
 
-###Project Structure
+### Project Structure
 
 The project is divided into two main parts:
 
 - Backend: Uses JSON Server to serve as a mock database.
 - Frontend: Built with React and communicates with the backend to display and manage users.
 
-##Getting Started
+## Getting Started
 
 Follow these steps to set up and run the application on your local machine.
 
-###Backend Setup
+### Backend Setup
 
 - Clone this repository: git clone formance
 - Install JSON Server: If JSON Server is not installed globally, install it by running: npm install -g json-server
@@ -29,11 +29,11 @@ Follow these steps to set up and run the application on your local machine.
 - Start the backend server: json-server --watch database.json --port 5000
 - This will start JSON Server on http://localhost:5000.
 
-###Frontend Setup
+### Frontend Setup
 
 - Navigate to the frontend folder (inside the main project directory): cd formance.
 - Install dependencies:npm install
 - Run the frontend application: npm start
 - This will start the frontend on http://localhost:3000.
 
-  ##Thankyou!
+  ## Thankyou!
