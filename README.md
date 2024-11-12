@@ -36,4 +36,4 @@ Follow these steps to set up and run the application on your local machine.
 - Run the frontend application: npm start
 - This will start the frontend on http://localhost:3000.
 
-  ## Thankyou!
+# Thankyou!
